@@ -241,7 +241,7 @@ Application ( Restaurant Menu Application)**
   - Head to [Google Developers Console](https://console.developers.google.com) and add http://ec2-35-162-229-47.us-west-2.compute.amazonaws.com to **Authorized JavaScript** origins and **Authorized redirect URIs**
 
 - For Facebook Sign-in
-  - Go to [Facebook Developers Console](https://developers.facebook.com) and add http://ec2-35-162-229-47.us-west-2.compute.amazonaws.com to both **Site URL** and **OAuth Redirect URI**.
+  - Go to [Facebook Developers Console](https://developers.facebook.com) and add http://ec2-35-162-229-47.us-west-2.compute.amazonaws.com to both **OAuth Redirect URI**.
 
 ##List of third-party resources used for this project
 - [DigitalOcean: Flask on Ubuntu](https://www.digitalocean.com/community/tutorials/how-to-deploy-a-flask-application-on-an-ubuntu-vps)
