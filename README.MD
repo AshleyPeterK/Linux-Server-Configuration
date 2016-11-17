@@ -66,7 +66,7 @@ Configure a new Linux server to host a web application. This will involve perfor
 
 - Changed the SSH port from 22 to 2200
 
-  `nano /etc/ssh/sshd_config` , followed by `stop ssh` and `start ssh`
+  `nano /etc/ssh/sshd_config` , followed by `sudo service ssh restart`
 
 - Configured the **Uncomplicated Firewall (UFW)** to only allow incoming connections for SSH 
   (port 2200), HTTP (port 80), and NTP (port 123)
@@ -92,7 +92,7 @@ Configure a new Linux server to host a web application. This will involve perfor
   - Disabled both **Root Login** and **Password Authentication**
       
      `sudo nano /etc/ssh/sshd_config` and set 'PasswordAuthentication' to **no** and 'PermitRootLogin' to **no**
-  - the user 'grader' can login now with `ssh grader@35.162.229.47 -p 2200`  
+  - Restart the service with `sudo service ssh restart`  
 
 - Configured the local timezone to **UTC**
 
